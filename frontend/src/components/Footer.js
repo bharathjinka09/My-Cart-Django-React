@@ -1,9 +1,12 @@
 import React from 'react'
+import { Row, Col } from 'react-bootstrap'
 
 function Footer(){
     return(
         <footer>
-            My Cart 2021 &#169;
+            <Row>
+            <Col className="text-center">My Cart 2021 &#169;</Col>
+            </Row>
         </footer>
     )
 }
